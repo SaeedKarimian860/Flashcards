@@ -40,7 +40,6 @@ const questions = [
   },
 ];
 
-
 function FlashCards() {
   return <div>TODO</div>;
 }
