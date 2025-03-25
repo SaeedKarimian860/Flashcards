@@ -42,9 +42,9 @@ const questions = [
 
 function FlashCards() {
   return (
-    <div>
-      {question.map((question) => (
-        <div>
+    <div className="flashcards">
+      {questions.map((question) => (
+        <div key={question.id}>
           <p>{question.question}</p>
         </div>
       ))}
